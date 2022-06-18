@@ -6,7 +6,7 @@ export function App(){
     const [user, setUser] = useState();
 
     if(user){
-        return <Home></Home>
+        return <Home loggedInUser={user}></Home>
     }
 
     return window.location.pathname === '/signup'

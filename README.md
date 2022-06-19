@@ -8,3 +8,6 @@ A aplicação desenvolvida foi um mini clone protótipo do Twitter, que está lo
 - Yup
 - Axios
 - Vite
+
+## A aplicação pode ser acessada no link abaixo
+- https://full-stack-challenge-one.vercel.app/

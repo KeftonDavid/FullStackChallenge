@@ -3,7 +3,7 @@ import { HeartIcon } from '@heroicons/react/outline'
 import { useEffect } from 'react';
 import axios from 'axios';
 import { useFormik } from 'formik';
-
+import avatar from './avatar.png'
 const MAX_TWEET_CHAR = 140;
 
 function TweetForm({loggedInUser, onSuccess}){
@@ -39,7 +39,7 @@ async function onSubmit(ev){
   return (
     <div className='border-b border-silver p-4 space-y-6'>
       <div className='flex p-4 space-x-7'>
-          <img src="/src/avatar.png" className='w-7'/>
+          <img src={avatar} className='w-7'/>
           <h1 className='font-bold text-xl'>Página inicial</h1>
       </div>
         <form onSubmit={formik.handleSubmit} className='pl-20 text-lg flex flex-col'>

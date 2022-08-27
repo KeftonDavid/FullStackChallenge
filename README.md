@@ -4,6 +4,7 @@ A aplicação desenvolvida foi um mini clone protótipo do Twitter, que está lo
 ## As principais tecnologias que compõem a aplicação neste repositório são:
 - React.js
 - TailwindCss
+- Planetscale DB
 - Formik
 - Yup
 - Axios

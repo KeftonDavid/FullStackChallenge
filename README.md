@@ -8,3 +8,4 @@ A aplicação desenvolvida foi um mini clone protótipo do Twitter, que está lo
 - Yup
 - Axios
 - Vite
+- Vercel
